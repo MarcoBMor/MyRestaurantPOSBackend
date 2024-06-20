@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/extra-groups")
+@RequestMapping("/api/extra-groups")
 public class ExtraGroupController extends GenericCrudController<ExtraGroup, String>{
 
     @Autowired

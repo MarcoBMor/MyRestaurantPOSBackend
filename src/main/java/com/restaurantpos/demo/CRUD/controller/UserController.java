@@ -8,12 +8,13 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/users")
+@RequestMapping("/api/users")
 public class UserController extends GenericCrudController<User, String>{
 
     @Autowired
     public UserController(UserService service) {
         super(service);
     }
+
 
 }

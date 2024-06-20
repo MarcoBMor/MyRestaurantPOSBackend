@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/tables")
+@RequestMapping("/api/tables")
 public class TableController extends GenericCrudController<Table, String>{
 
     @Autowired

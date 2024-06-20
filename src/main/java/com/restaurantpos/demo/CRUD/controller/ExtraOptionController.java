@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/extra-options")
+@RequestMapping("/api/extra-options")
 public class ExtraOptionController extends GenericCrudController<ExtraOption, String>{
 
     @Autowired
